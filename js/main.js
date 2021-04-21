@@ -1,7 +1,7 @@
 const sendButton = document.querySelector('#liveToastBtn');
 
 const sendMailToDilruba = async () => 
-await (await fetch('/.netlify/functions/sendMail')).json();
+await (await fetch('/.netlify/functions/sendmail')).json();
 
 sendButton.addEventListener('click', () => {
 
